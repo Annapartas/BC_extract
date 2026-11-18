@@ -18,7 +18,6 @@ conda env create -f environment.yml
 conda activate BC_extraction
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username. The cluster must have Conda (or compatible software) installed.
 
 ## Configure
 
