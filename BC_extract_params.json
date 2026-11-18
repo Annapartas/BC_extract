@@ -1,0 +1,24 @@
+{
+  "input": {
+    "files": [
+      "*.fastq.gz"
+    ]
+  },
+  "sequences": {
+    "upstream_flank": "CGACATCAGGATCCG",
+    "fragment_pattern": "TCTTCNNNWSNNNWSNNNWSNNNWSNNNWSNNNWSNNNCAATA",
+    "downstream_flank": "TATTAAATTAGATTT"
+  },
+  "processing": {
+    "cutadapt_cores": 4,
+    "pigz_threads": 4,
+    "compression_level": 4,
+    "minimum_flank_overlap": 15,
+    "keep_cutadapt_candidates": false
+  },
+  "output": {
+    "directory": "BC_extraction_output",
+    "save_cutadapt_unmatched": true,
+    "save_pattern_rejected": true
+  }
+}

@@ -1,0 +1,8 @@
+name: BC_extraction
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - cutadapt>=4
+  - pigz
