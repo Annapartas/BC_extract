@@ -12,8 +12,8 @@ Extract and count barcode fragments from FASTQ reads using **Cutadapt** and exac
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/BC_extraction.git
-cd BC_extraction
+git clone https://github.com/Annapartas/BC_extract.git
+cd BC_extract
 conda env create -f environment.yml
 conda activate BC_extraction
 ```
